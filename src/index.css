@@ -1,0 +1,43 @@
+#root{
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+body{
+    overflow: hidden;
+    background-color: #161a1d;
+}
+h1{
+    font-size: clamp(3rem, 1.5978rem + 6.5217vw, 6rem);
+    text-align: center;
+    color: #f5f3f4;
+}
+span{
+    font-size: clamp(2rem, 1.5326rem + 2.1739vw, 3rem);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    color: #161a1d;
+}
+.timer{
+    display: flex;
+    gap: 10px;
+}
+.timer div{
+    width: 20vw;
+    max-width: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f3f4;
+
+}
+.timer div span:nth-child(2){
+    font-size: clamp(1rem, 0.7663rem + 1.087vw, 1.5rem);
+}
