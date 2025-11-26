@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const dataStartowa = new Date('2024-11-25T19:00:00');
+const dataStartowa = new Date('2024-11-25T19:48:00');
 
 function App() {
     const [roznica, setRoznica] = useState(new Date() - dataStartowa);
